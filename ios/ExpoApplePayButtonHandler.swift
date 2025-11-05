@@ -43,7 +43,7 @@ class ExpoApplePayButtonHandler: NSObject, PKPaymentAuthorizationControllerDeleg
         payment.supportedNetworks = [.amex, .visa, .masterCard, .mada]
         payment.merchantCapabilities = .capability3DS
         payment.countryCode = "AE"
-        payment.currencyCode = "UAE"
+        payment.currencyCode = "AED"
         
         self.paymentController = PKPaymentAuthorizationController(paymentRequest: payment)
         
